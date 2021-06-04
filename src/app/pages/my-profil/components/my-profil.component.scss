@@ -1,0 +1,41 @@
+.my-profil-container {
+    height: 25%;
+    background-image: url("/assets/images/informatique.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .my-information {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        height: 40%;
+        background-color: rgba(255, 255, 255, 0.5);
+
+        .my-description {
+            width: 50%;
+
+            .my-name {
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+
+        .contact {
+            width: 50%;
+
+            .mail {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .text-mail {
+                    margin: 0 0 0 1%;
+                }
+            }
+        }
+    }
+}
